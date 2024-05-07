@@ -1,0 +1,146 @@
+---
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Portfolio";
+---
+
+<Layout pageTitle={pageTitle}>
+  <div class="gif">
+    <img width="300" height="259" alt="RaccoonSpaceGif" src="/public/space.webp" />
+  </div>
+  <font size="8rem" face="Trattatello, fantasy" color="lightPink"
+    >Bienvenue sur mon portfolio web ! 🤷‍♂️</font
+  >
+  <h1>K - M</h1>
+  <small
+    >⭐⭐⭐ IDE unité de soins intensifs cardiologique - USIC ⭐⭐⭐
+  </small>
+  <h2>About me</h2>
+  <p>
+    En tant qu'infirmier expérimenté avec plus de dix années de pratique, j'ai
+    eu le privilège de travailler dans divers environnements de santé, acquérant
+    ainsi une expertise solide en soins infirmiers.
+  </p>
+  <p>
+    Cette noble profession m'a enseigné des leçons inestimables sur la vie, la
+    patience, la motivation, les relations humaines, l'espoir, la prise
+    d'initiative, l'endurance et le travail d'équipe.
+  </p>
+  <p>
+    Cette expérience enrichissante m'a permis de développer un profond respect
+    pour le dévouement et la compassion nécessaires pour offrir des soins de
+    haute qualité à chaque patient.
+  </p>
+  <p>
+    la complexité et la sensibilité des cas rencontrés en unité de soins
+    intensifs cardiologiques me fascinent particulièrement.
+  </p>
+  <p>
+    Je suis convaincu que mon expérience antérieure, combinée à ma capacité à
+    gérer efficacement les situations médicales critiques, me permettra de
+    contribuer de manière significative à l'équipe et de fournir des soins
+    exceptionnels aux patients nécessitant une surveillance étroite et une
+    attention spécialisée.
+  </p>
+  <div class="button">
+    <a href="/blog/">
+      <button>Les examens en cardiologie >> </button>
+    </a>
+  </div>
+  <h2>Skills</h2>
+  <div class="link-images">
+    <p>Ecoute active et sens du relationnel</p>
+    <p>Autonomie et responsabilité</p>
+    <p>Excellent sens du relationnel</p>
+    <p>Capacité de concentration</p>
+    <p>Communication et pédagogie</p>
+    <p>Esprit d’équipe</p>
+    <p>Gestion du stress</p>
+    <p>Gestion des urgences</p>
+    <p>Sang froid</p>
+    <p>Confidentialité et discrétion</p>
+    <h2>Academic background</h2>
+    <p>
+      Baccalauréat scientifique candidat scolaire :
+      <q> Année 1994 - 1995 </q>
+      
+    </p>
+
+    <p>
+      Baccalauréat scientifique candidat libre : <q> Année 1995 - 1996 </q>
+    </p>
+    <p>Infirmier diplomé d'état ( IDE ) UFR de Créteil</p>
+    <p>
+      DIU prise en chage de la douleur : Université de Versailles
+      Saint-Quentin-en-Yvelines
+    </p>
+    <p>DU technicien de la recherche clinique : UFR de Créteil</p>
+    <p>
+      DU Transport aérien et rapatriément sanitaire : UFR saint-antoine 
+    </p>
+    <p>Certification language frontend : HTML CSS , JS , Angular </p>
+    <p>Diplome déveleppeur web et web mobile fullstack JavaScript</p>
+    <h2>Languages</h2>
+    <p>French ⭐⭐⭐⭐⭐</p>
+    <p>English ⭐⭐</p>
+    <p>Arabic ⭐⭐⭐⭐⭐</p>
+    <h2>Interests</h2>
+    <p>Soft music</p>
+    <p>Web technology</p>
+    <h2>In futur</h2>
+    <p>Se spéciliser dans le DATA</p>
+    <p>
+      Préparation master management : solidarité internationale et action
+      sociale
+    </p>
+  </div>
+
+  <style>
+    /* small */
+    small {
+      background-color: #584966;
+      color: #fdebf3;
+      border-radius: 6px;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 600;
+      padding: 0.3em 0.6em 0.2em;
+    }
+
+    /* Button */
+    button {
+      background: rgba(0, 0, 0, 0);
+      border: 2px solid #78c2ad;
+      border-radius: 8px;
+      color: #bdabf3;
+      font:
+        600 16px "Josefin Sans",
+        sans-serif;
+      padding: 8px 16px;
+      transition:
+        background-color 0.4s,
+        color 0.4s;
+    }
+
+    button:hover {
+      background-color: #78c2ad;
+      color: #1e1e2e;
+      cursor: pointer;
+    }
+
+    .button {
+      text-align: center;
+    }
+
+    /* Skill images */
+    .link-images img {
+      margin: 16px 4px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .link-images img {
+        height: 30px;
+        width: 30px;
+        margin: 16px 1px;
+      }
+    }
+  </style>
+</Layout>
